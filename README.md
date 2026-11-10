@@ -29,13 +29,3 @@ I dati provengono da Bloomberg e non sono inclusi nella repository. Il file atte
 | `13_profili_casi.R` | Profili dei cluster e casi particolari | 4 |
 | `14_robustezza.R` | Controlli di robustezza | 4 |
 | `15_figure_cap4.R` | Figure del capitolo 4 | 4 |
-
-## Struttura
-
-```
-tesi_stoxx600/
-├── tesi_stoxx600.Rproj
-├── R/          script di analisi
-├── dati/       file dei dati (non incluso)
-└── output/     tabelle (CSV), figure (PNG) e file intermedi (RDS), creati dagli script
-```
