@@ -1,6 +1,6 @@
 # Dietro la classificazione settoriale: affinità e differenze tra le imprese europee. Cluster analysis sulle società non finanziarie dello STOXX Europe 600
 
-Codice R utilizzato per la tesi di laurea triennale di Nicolò Bozzola (relatore prof. Rossini), Università degli Studi di Milano.
+Codice R utilizzato per la tesi di laurea triennale di Nicolò Bozzola (relatore prof. Luca Rossini), Università degli Studi di Milano.
 
 La tesi confronta la classificazione settoriale ICB (Industry Classification Benchmark) con gruppi di società costruiti tramite cluster analysis su 11 indicatori economico-finanziari e di mercato. Il campione comprende le 445 società non finanziarie dello STOXX Europe 600 al 30 giugno 2026. I cluster sono ottenuti con il k-means sulle variabili standardizzate e sono confrontati con i 16 supersettori ICB.
 
