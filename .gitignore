@@ -1,0 +1,12 @@
+# File di RStudio
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# Dati Bloomberg: non ridistribuibili
+dati/*
+!dati/LEGGIMI.md
+
+# Risultati generati dagli script
+output/
