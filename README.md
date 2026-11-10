@@ -1,6 +1,6 @@
 # Settori ICB e cluster nello STOXX Europe 600
 
-Codice R della tesi di laurea triennale di Nicolò Bozzola (relatore prof. Rossini), Università degli Studi di Milano.
+Codice R utilizzato per la tesi di laurea triennale di Nicolò Bozzola (relatore prof. Rossini), Università degli Studi di Milano.
 
 La tesi confronta la classificazione settoriale ICB (Industry Classification Benchmark) con gruppi di società costruiti tramite cluster analysis su 11 indicatori economico-finanziari e di mercato. Il campione comprende le 445 società non finanziarie dello STOXX Europe 600 al 30 giugno 2026. I cluster sono ottenuti con il k-means sulle variabili standardizzate e sono confrontati con i 16 supersettori ICB.
 
@@ -8,21 +8,6 @@ La tesi confronta la classificazione settoriale ICB (Industry Classification Ben
 
 I dati provengono da Bloomberg e non sono inclusi nella repository. Il file atteso e le sue colonne sono descritti in [`dati/LEGGIMI.md`](dati/LEGGIMI.md).
 
-## Requisiti
-
-R 4.x e i pacchetti:
-
-```r
-install.packages(c("readxl", "dplyr", "corrplot", "cluster", "mclust"))
-```
-
-## Esecuzione
-
-1. Inserire il file dei dati in `dati/` e aprire `tesi_stoxx600.Rproj` in RStudio, così che la cartella di lavoro sia la radice del progetto.
-2. Eseguire `R/07_standardizzazione_finale.R`: tramite `source()` esegue in sequenza gli script da 01 a 07 e salva il dataset finale in `output/dati_finali.rds`.
-3. Eseguire nell'ordine gli script da 08 a 15. Ciascuno legge i file salvati dagli script precedenti nella cartella `output/`.
-
-Il k-means usa il seme 123 e 100 ripartenze casuali, quindi i risultati sono riproducibili.
 
 ## Script
 
