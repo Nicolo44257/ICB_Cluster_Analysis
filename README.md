@@ -1,4 +1,4 @@
-# Settori ICB e cluster nello STOXX Europe 600
+# Dietro la classificazione settoriale: affinità e differenze tra le imprese europee. Cluster analysis sulle società non finanziarie dello STOXX Europe 600
 
 Codice R utilizzato per la tesi di laurea triennale di Nicolò Bozzola (relatore prof. Rossini), Università degli Studi di Milano.
 
